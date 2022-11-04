@@ -5,7 +5,7 @@ from scipy.stats import shapiro
 from scipy.stats import levene
 from scipy.stats import bartlett
 import scipy.stats
-from airport_survey import preprocessing
+from preprocessing_ori_data import preprocessing
 
 # 코로나 전 후 importance 관련 문항 비교
 df_ori = pd.read_excel("C:/Users/82104/Desktop/fproject/V10 Survey Passengers raw data_2101_edit0804_Kihun Kim.xlsx",
